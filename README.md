@@ -18,21 +18,21 @@ Simple codeigniter library for generate datatables without using any queries and
 
 	##Controller
 
-`function viewfunction(){
+	function viewfunction(){
 
-	$this->load->view('datatableview');
-}
+		$this->load->view('datatableview');
+	}
 
-function getdata(){
+	function getdata(){
 
-	$config['table'] = 'table-name';
-	$config['columns'] = array('column_one', 'column_two','column_three','column_four');
-	$config['searchable'] = array('column_one','column_two');
+		$config['table'] = 'table-name';
+		$config['columns'] = array('column_one', 'column_two','column_three','column_four');
+		$config['searchable'] = array('column_one','column_two');
 
-	$this->load->library('datatables',$config);
+		$this->load->library('datatables',$config);
 
-	$this->datatables->generate();
-}`
+		$this->datatables->generate();
+	}
 
 ## View
 
