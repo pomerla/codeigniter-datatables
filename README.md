@@ -3,11 +3,6 @@ Codeigniter Datatables Library
 
 Simple Datatable library for CodeIgniter. Generate datatable quickly.
 
-## [View the Live Demo](http://github-api-library-for-codeigniter.scotch.io)
-## [Learn More](http://scotch.io/bar-talk/x/announcing-github-api-library-for-codeigniter)
-
-![CodeIgniter Github](http://scotch.io/wp-content/uploads/2013/05/github-api-library-codeigniter.jpg "CodeIgniter Github")
-
 ## What is this?
 
 Simple codeigniter library for generate datatables without using any queries and complex functionality.
