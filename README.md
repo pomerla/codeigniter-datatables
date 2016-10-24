@@ -17,8 +17,8 @@ Simple codeigniter library for generate datatables without using any queries and
 ## Example
 
 	##Controller
-`
-function viewfunction(){
+
+`function viewfunction(){
 
 	$this->load->view('datatableview');
 }
@@ -32,13 +32,11 @@ function getdata(){
 	$this->load->library('datatables',$config);
 
 	$this->datatables->generate();
-}
-`
+}`
 
 ## View
 
-`
-	<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/dt/dt-1.10.12/b-1.2.2/b-html5-1.2.2/b-print-1.2.2/fh-3.1.2/se-1.2.0/datatables.min.css"/>
+`<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/dt/dt-1.10.12/b-1.2.2/b-html5-1.2.2/b-print-1.2.2/fh-3.1.2/se-1.2.0/datatables.min.css"/>
  
 	<script type="text/javascript" src="https://cdn.datatables.net/v/dt/dt-1.10.12/b-1.2.2/b-html5-1.2.2/b-print-1.2.2/fh-3.1.2/se-1.2.0/datatables.min.js"></script>
 
